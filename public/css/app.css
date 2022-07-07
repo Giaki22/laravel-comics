@@ -1,0 +1,29 @@
+* {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+:root {
+  /* COLORS */
+  --primary-color: #0282f9;
+  --secondary-color: #1c1c1c;
+  --accent-color: #2f2f2f;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #2f2f2f;
+  --accent-text-color: #0282f9;
+  /* SPACINGS */
+  --xs: .625rem;
+  --s: 1.5625rem;
+  --m: 2.5rem;
+  --l: 3.75rem;
+  --xl: 5rem;
+  --xxl: 6.25rem;
+}
+
