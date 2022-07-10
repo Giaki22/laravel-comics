@@ -28,10 +28,10 @@
 </div>
 <div class="jumbo"></div>
 
-<style scoped>
+<style>
     .upper-line{
-        background-color: var(--primary-color);
-        height: 3vh;
+    background-color: var(--primary-color);
+    height: 3vh;
     }
     .intestation{
         display: flex;
@@ -55,7 +55,7 @@
         display: flex;
         align-items: center;
     }
-    ul{
+    nav ul{
         display: flex;
         list-style: none;
         gap: 20px;
@@ -65,7 +65,7 @@
         color: var(--secondary-text-color);
         align-items: center;
     }
-    li{
+    nav ul li{
         border-bottom: 2px solid transparent;
     }
     .active, li:hover{
