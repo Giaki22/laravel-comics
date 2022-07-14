@@ -17,3 +17,12 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('layouts.home', compact('comics'));
 });
+
+Route::get('/{id}', function ($id) {
+    $comics = config('comics');
+    if ($id >= count($comics)) {
+        abort('404');
+    }
+    $selectedComic = $comics[$id];
+    return view('layouts.comic', compact('selectedComic'));
+})->name('comic');

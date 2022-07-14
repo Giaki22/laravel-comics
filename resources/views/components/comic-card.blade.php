@@ -12,9 +12,4 @@
         padding: 10px;
         gap: 5px;
     }
-    .comic img{
-        object-fit: cover;
-        width: 200px;
-        height: 200px;
-    }
 </style>
